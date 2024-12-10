@@ -25,8 +25,6 @@ public class Producto {
     private String nombre; // Nombre del producto
 
     private double precio; // Precio del producto
-    
-    private double descripcion; // Precio del producto
 
     private int stock; // Cantidad disponible en inventario
 

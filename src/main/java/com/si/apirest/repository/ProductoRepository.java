@@ -12,3 +12,4 @@ public interface ProductoRepository extends JpaRepository<Producto, Integer> {
     // Método para buscar un producto por su nombre (si es necesario)
     Optional<Producto> findByNombre(String nombre);
 }
+z
