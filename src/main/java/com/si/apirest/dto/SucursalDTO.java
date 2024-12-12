@@ -6,5 +6,6 @@ import lombok.Data;
 public class SucursalDTO {
     private int id;
     private String nombre;
-    private String ubicacion;
+    private String direccion;
+    private int telefono;
 }

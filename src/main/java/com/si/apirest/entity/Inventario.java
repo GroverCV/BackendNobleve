@@ -16,7 +16,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-@Table(name = "inventario")
+@Table(name = "inventario") 
 public class Inventario {
     @Id
     @GeneratedValue
@@ -26,5 +26,5 @@ public class Inventario {
 
     @ManyToOne
     @JoinColumn(name = "id_producto")
-    private Producto producto; // Relación con la entidad Producto
+    private Producto id_producto; // Relación con la entidad Producto
 }

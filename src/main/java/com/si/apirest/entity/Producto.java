@@ -26,35 +26,33 @@ public class Producto {
 
     private double precio; // Precio del producto
 
-    private int stock; // Cantidad disponible en inventario
-
     private boolean enabled; // Para indicar si el producto está habilitado
 
     @ManyToOne
     @JoinColumn(name = "id_categoria")
-    private Categoria categoria; // Relación con la entidad Categoria
+    private Categoria id_categoria; // Relación con la entidad Categoria
 
     @ManyToOne
     @JoinColumn(name = "id_marca")
-    private Marca marca; // Relación con la entidad Marca
+    private Marca id_marca; // Relación con la entidad Marca
 
     @ManyToOne
     @JoinColumn(name = "id_color")
-    private Color color; // Relación con la entidad Color
+    private Color id_color; // Relación con la entidad Color
 
     @ManyToOne
     @JoinColumn(name = "id_talla")
-    private Talla talla; // Relación con la entidad Talla
+    private Talla id_talla; // Relación con la entidad Talla
 
     @ManyToOne
     @JoinColumn(name = "id_sucursal")
-    private Sucursal sucursal; // Relación con la entidad Talla
+    private Sucursal id_sucursal; // Relación con la entidad Talla
 
     @ManyToOne
     @JoinColumn(name = "id_descuento")
-    private Descuento descuento; // Relación con la entidad Talla
+    private Descuento id_descuento; // Relación con la entidad Talla
 
     @ManyToOne
     @JoinColumn(name = "id_imagen")
-    private Imagen imagen; // Relación con la entidad Talla
+    private Imagen id_imagen; // Relación con la entidad Talla
 }

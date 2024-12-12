@@ -19,9 +19,7 @@ public class Imagen {
     @Id
     @GeneratedValue
     private int id;
-
-    private String url; // URL de la imagen
-
     private String descripcion; // Descripción de la imagen
+    private String url; // URL de la imagen
 
 }
